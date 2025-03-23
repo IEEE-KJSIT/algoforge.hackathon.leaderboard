@@ -1,0 +1,138 @@
+/* Leaderboard specific styles */
+.leaderboard-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.leaderboard-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.leaderboard-title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  letter-spacing: -0.05em;
+  background: linear-gradient(to right, #007bff, #00bfff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.leaderboard-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+/* Table styles */
+.leaderboard-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+
+.leaderboard-table-header {
+  background: linear-gradient(to right, #000d1a, #001a33);
+  color: white;
+  text-align: left;
+  padding: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(0, 123, 255, 0.5);
+}
+
+.leaderboard-table-row {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease;
+}
+
+.leaderboard-table-row:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.7);
+}
+
+.leaderboard-table-cell {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 123, 255, 0.3);
+}
+
+/* Rankings */
+.rank-1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.rank-2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #c0c0c0;
+  box-shadow: 0 0 8px rgba(192, 192, 192, 0.5);
+}
+
+.rank-3 {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #cd7f32;
+  box-shadow: 0 0 8px rgba(205, 127, 50, 0.5);
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Loading */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(0, 123, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #007bff;
+  animation: spin 1s ease-in-out infinite;
+}
+
+/* Digital effect */
+.digital-text {
+  font-family: 'Courier New', monospace;
+  color: #00bfff;
+  text-shadow: 0 0 5px rgba(0, 191, 255, 0.7);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .leaderboard-title {
+    font-size: 2.5rem;
+  }
+  
+  .leaderboard-subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .leaderboard-container {
+    padding: 1rem;
+  }
+} 
