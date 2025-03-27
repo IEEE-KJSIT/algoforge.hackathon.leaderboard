@@ -1,5 +1,5 @@
 import { db } from '../firebase';
-import { collection, getDocs, query, onSnapshot, doc, getDoc } from 'firebase/firestore';
+import { collection, getDocs, onSnapshot } from 'firebase/firestore';
 
 export interface TeamScore {
   id: string;

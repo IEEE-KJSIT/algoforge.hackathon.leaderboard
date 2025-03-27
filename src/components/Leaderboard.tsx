@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Trophy, ChevronRight } from 'lucide-react';
+import { Trophy } from 'lucide-react';
 import * as THREE from 'three';
 import '../styles/leaderboard.css';
 
