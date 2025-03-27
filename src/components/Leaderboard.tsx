@@ -31,14 +31,6 @@ const itemVariants = {
   }
 };
 
-// Helper for trophy colors
-const getTrophyColor = (rank: number) => {
-  if (rank === 1) return 'text-yellow-400 animate-pulse-slow';
-  if (rank === 2) return 'text-gray-300 animate-pulse-slow';
-  if (rank === 3) return 'text-amber-600 animate-pulse-slow';
-  return 'text-cyan-400';
-};
-
 // HARDCODED TEAM DATA - Replace this with your own data
 // To update the leaderboard, simply change the rank values in this array
 // Teams will be displayed in the order of their rank
