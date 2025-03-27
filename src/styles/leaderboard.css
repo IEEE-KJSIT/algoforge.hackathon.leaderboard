@@ -135,4 +135,50 @@
   .leaderboard-container {
     padding: 1rem;
   }
+}
+
+/* Cyberpunk Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+.font-cyber {
+  font-family: 'Share Tech Mono', monospace;
+  letter-spacing: 1px;
+}
+
+.font-cyber-title {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Glitch effect for team names */
+.glitch {
+  position: relative;
+  text-shadow: 0.05em 0 0 #06b6d4, -0.05em -0.025em 0 #0ea5e9, -0.025em 0.05em 0 #0284c7;
+  animation: glitch 2s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 #06b6d4, -0.05em -0.025em 0 #0ea5e9, -0.025em 0.05em 0 #0284c7;
+  }
+  14% {
+    text-shadow: 0.05em 0 0 #06b6d4, -0.05em -0.025em 0 #0ea5e9, -0.025em 0.05em 0 #0284c7;
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 #06b6d4, 0.025em 0.025em 0 #0ea5e9, -0.05em -0.05em 0 #0284c7;
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 #06b6d4, 0.025em 0.025em 0 #0ea5e9, -0.05em -0.05em 0 #0284c7;
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 #06b6d4, 0.05em 0 0 #0ea5e9, 0 -0.05em 0 #0284c7;
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 #06b6d4, 0.05em 0 0 #0ea5e9, 0 -0.05em 0 #0284c7;
+  }
+  100% {
+    text-shadow: -0.025em 0 0 #06b6d4, -0.025em -0.025em 0 #0ea5e9, -0.025em -0.05em 0 #0284c7;
+  }
 } 

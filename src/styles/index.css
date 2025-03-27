@@ -1,8 +1,8 @@
+@import './leaderboard.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import './leaderboard.css';
 
 @font-face {
   font-family: 'Minecraft';
