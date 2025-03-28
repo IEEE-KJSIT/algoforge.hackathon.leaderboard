@@ -7,5 +7,15 @@ export default defineConfig({
   base: '/algoforge.hackathon.leaderboard/',
   server: {
     port: 5175 // Different from the main application port
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: true,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   }
 }) 
