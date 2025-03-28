@@ -10,7 +10,6 @@ permissions:
   contents: write
   pages: write
   id-token: write
-  administration: write
 
 # Allow only one concurrent deployment
 concurrency:
@@ -35,7 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
-          enablement: true # Enable GitHub Pages for this repository
+          enablement: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
