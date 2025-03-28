@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/algoforge.leaderboard/',
+  base: '/algoforge.hackathon.leaderboard/',
   server: {
     port: 5175 // Different from the main application port
   }
