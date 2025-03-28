@@ -35,29 +35,29 @@ const itemVariants = {
 // To update the leaderboard, simply change the rank values in this array
 // Teams will be displayed in the order of their rank
 const TEAMS = [
-  { id: '1', teamName: 'lorem ipsum', projectName: 'AI Fitness Coach', score: 142, rank: 4 },
-  { id: '2', teamName: 'V4', projectName: 'Smart Irrigation System', score: 124, rank: 6 },
-  { id: '3', teamName: 'Tech Shastra', projectName: 'AR Navigation App', score: 115, rank: 8 },
-  { id: '4', teamName: 'Anon', projectName: 'Sustainability Tracker', score: 113, rank: 10 },
-  { id: '5', teamName: 'MADS 404', projectName: 'Mental Health Bot', score: 83, rank: 13 },
-  { id: '6', teamName: 'Devally', projectName: 'Blockchain Voting', score: 81, rank: 14 },
-  { id: '7', teamName: 'Fantastic Four', projectName: 'Pollution Monitor', score: 78, rank: 15 },
-  { id: '8', teamName: 'Four Loop', projectName: 'Virtual Reality Museum', score: 75, rank: 16 },
-  { id: '9', teamName: 'Falcons', projectName: 'Stock Market Predictor', score: 72, rank: 17 },
-  { id: '10', teamName: 'Star', projectName: 'Audio Transcription Tool', score: 70, rank: 21 },
-  { id: '11', teamName: 'MangoDB', projectName: 'Healthcare Management System', score: 114, rank: 9 },
+  { id: '1', teamName: 'lorem ipsum', projectName: 'AI-Driven Personalized Study Companion for Smarter Exam Prep', score: 142, rank: 4 },
+  { id: '2', teamName: 'V4', projectName: 'VendorAI', score: 124, rank: 6 },
+  { id: '3', teamName: 'Tech Shastra', projectName: 'SMART SHOPPING TROLLEY :ONE STOP SOLUTION FOR QUEUE FREE SHOPPING', score: 115, rank: 8 },
+  { id: '4', teamName: 'Anon', projectName: 'Sanjeevani', score: 113, rank: 10 },
+  { id: '5', teamName: 'MADS 404', projectName: 'AquaLens', score: 83, rank: 13 },
+  { id: '6', teamName: 'Devally', projectName: 'NGO-CONNECT', score: 81, rank: 14 },
+  { id: '7', teamName: 'Fantastic Four', projectName: 'AI Driven Financial Portfolio Management', score: 78, rank: 15 },
+  { id: '8', teamName: 'Four Loop', projectName: 'AR-Based Interior Design', score: 75, rank: 16 },
+  { id: '9', teamName: 'Falcons', projectName: 'Evolvex Ai - Revolutionalize AI Development', score: 72, rank: 17 },
+  { id: '10', teamName: 'Star', projectName: 'Onescan - No Papers, Just scan ', score: 70, rank: 21 },
+  { id: '11', teamName: 'MangoDB', projectName: 'Smart Fasal - MangoDB', score: 114, rank: 9 },
   { id: '12', teamName: 'Team Voldemort', projectName: 'Swift Claim', score: 173, rank: 1 },
-  { id: '13', teamName: 'Unfortunately Fortunate', projectName: 'Educational Game Platform', score: 107, rank: 12 },
-  { id: '14', teamName: 'Code Blooded', projectName: 'Traffic Management System', score: 61, rank: 20 },
-  { id: '15', teamName: 'npx Masters', projectName: 'Food Waste Reduction', score: 75, rank: 22 },
-  { id: '16', teamName: 'Debug Thugs', projectName: 'Student Collaboration Tool', score: 97, rank: 18 },
-  { id: '17', teamName: 'Syntax Error', projectName: 'Financial Literacy App', score: 95, rank: 19 },
+  { id: '13', teamName: 'Unfortunately Fortunate', projectName: 'Intellex: Bridging the Information Gap for New Employees & Interns', score: 107, rank: 12 },
+  { id: '14', teamName: 'Code Blooded', projectName: 'Farm_Assure', score: 61, rank: 20 },
+  { id: '15', teamName: 'npx Masters', projectName: 'Near Mart', score: 75, rank: 22 },
+  { id: '16', teamName: 'Debug Thugs', projectName: 'Tor-Rent: Redefining Rentals with Blockchain', score: 97, rank: 18 },
+  { id: '17', teamName: 'Syntax Error', projectName: 'MediFlow Ai: A smart Healthcare Grid', score: 95, rank: 19 },
   { id: '18', teamName: 'KnowWiz', projectName: 'Vision AI', score: 165, rank: 2 },
-  { id: '19', teamName: 'Mappa', projectName: 'Water Quality Monitor', score: 120, rank: 7 },
+  { id: '19', teamName: 'Mappa', projectName: 'MAPPA– Your AI Enhanced Collaboration Hub', score: 120, rank: 7 },
   { id: '20', teamName: 'Team PASH', projectName: 'PandaLearn', score: 148, rank: 3 },
-  { id: '21', teamName: 'Unpaid Labours', projectName: 'Public Transport Tracker', score: 111, rank: 11 },
-  { id: '22', teamName: '</ByteZeta>', projectName: 'Digital Art Platform', score: 135, rank: 5 },
-  { id: '23', teamName: 'AlgoZenith', projectName: 'Community Volunteer App', score: 41, rank: 23 },
+  { id: '21', teamName: 'Unpaid Labours', projectName: 'FoodHero: A Gamified, AI-Driven Food Donation Platform', score: 111, rank: 11 },
+  { id: '22', teamName: '</ByteZeta>', projectName: 'Vidhik: E-Governance with AI & Blockchain', score: 135, rank: 5 },
+  { id: '23', teamName: 'AlgoZenith', projectName: 'Alumni Hub - Bridging alumni and opportunities', score: 41, rank: 23 },
 ];
 
 // Sort teams by rank
@@ -624,7 +624,7 @@ export function Leaderboard() {
             <p className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-purple-600">TEAM</p>
           </div>
           <div className="col-span-5 flex items-center justify-center relative z-10">
-            <p className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-600">PROJECT</p>
+            <p className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-cyan-600">PROJECT TITLE</p>
           </div>
           <div className="col-span-2 flex items-center justify-center relative z-10">
             <p className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-purple-600">SCORE</p>
